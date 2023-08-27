@@ -1,5 +1,6 @@
 #include <stdio.h>
 int ch,max,top=-1;
+
 void push(int arr[]){
 	top++;
 	printf("Enter element to be pushed:");
