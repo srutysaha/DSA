@@ -1,8 +1,9 @@
 //second largest of n numbers using array
 int main(){
-	int i, n,a[n],max1,max2;
+	int i, n,max1,max2;
 	printf("Enter total number of elements:");
 	scanf("%d",&n);
+	int a[n];
 	printf("Enter elements in array\n");
 	for(i=0;i<n;i++){
 		scanf("%d",&a[i]);
