@@ -1,10 +1,11 @@
 //insert a number at a given location in array
 #include <stdio.h>
 int main(){
-	int i, n,a[n],num,id,c;
+	int i, n,num,id,c;
 	printf("Enter total number of elements:");
 	scanf("%d",&n);
 	printf("Enter elements in array\n");
+	int a[n];
 	for(i=0;i<n;i++){
 		scanf("%d",&a[i]);
 	}
@@ -17,6 +18,7 @@ int main(){
 	}
 	else{
 		printf("Error:index out of array range");
+		exit(0);
 	}
 	for(i=id;i<n+1;i++){
 		c=a[i];
