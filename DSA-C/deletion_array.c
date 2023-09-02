@@ -1,9 +1,10 @@
 //delete a number from a given location in array
 #include <stdio.h>
 int main(){
-	int i, n,a[n],id;
+	int i,n,id;
 	printf("Enter total number of elements:");
 	scanf("%d",&n);
+	int a[n];
 	printf("Enter elements in array\n");
 	for(i=0;i<n;i++){
 		scanf("%d",&a[i]);
@@ -15,6 +16,7 @@ int main(){
 	}
 	else{
 		printf("Error:index out of array range");
+		exit(0);
 	}
 	i=id;
 	while(i!=n-1){
